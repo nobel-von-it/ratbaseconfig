@@ -1,6 +1,6 @@
 [package]
 name = "ratbaseconfig"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["maksimdavydenko"]
 description = "lib with base ratatui config for my (mb your) apps"
