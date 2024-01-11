@@ -5,7 +5,7 @@ maybe State enum or App struct
 
 
 
-mod main {
+pub mod main {
     use std::time::Duration;
     use anyhow::Result;
     use crossterm::{
@@ -29,13 +29,13 @@ mod main {
 
     #[derive(PartialEq)]
     /* 2 base state for me */
-    enum State {
+    pub enum State {
         Write,
         Read,
     }
 
     /* useful things */
-    struct App {
+    pub struct App {
         date: String,
         secret: String,
         state: State,
